@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "REPLACED_AT_DEPLOYMENT"
+        TaskDefinition: "ecs-cicd-taskdef2"
         LoadBalancerInfo:
           ContainerName: "web"
           ContainerPort: 80
