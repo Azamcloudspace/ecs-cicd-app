@@ -1,9 +1,0 @@
-version: 1
-Resources:
-  - TargetService:
-      Type: AWS::ECS::Service
-      Properties:
-        TaskDefinition: "REPLACED_AT_DEPLOYMENT"
-        LoadBalancerInfo:
-          ContainerName: "web"
-          ContainerPort: 80
